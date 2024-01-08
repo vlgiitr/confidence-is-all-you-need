@@ -89,9 +89,15 @@ with shape (50000,) storing just our scores.
 
 ### PLOTTING THE RESULTS
 
-Finally we can generate pretty pictures, and run the plotting code
-
+Finally we can generate pretty pictures, and run the plotting code.   
 > python3 plot.py
+
+The results will look similar to this   
+
+
+![Confidence Is All You Need for MI Attacks Results](https://github.com/shivank21/shivank_garg_cv/assets/128126577/9c4ef4fa-0478-4abe-a887-c9c35e46f4e0)
+
+
 
 ### RESULTS {Using AUC as Metric}
 
@@ -103,9 +109,9 @@ Finally we can generate pretty pictures, and run the plotting code
 | Attack Ours (Offline, Fixed Variance) | 0.5184 | 0.4928 | 0.4804 | 0.4834 | 0.4815 |
 | Attack Global Threshold | 0.5448 | 0.5439 | 0.5469 | 0..5376 | 0.5377 |
 
-where the global threshold attack is the baseline, and our online,
+Where the global threshold attack is the baseline, and our online,
 online-with-fixed-variance, offline, and offline-with-fixed-variance attack
-variants are the four other curves. Note that because we only train a few
+variants are the four other curves. Note that because we only train a few shadow
 models, the fixed variance variants perform best.
 
 ### Citation
