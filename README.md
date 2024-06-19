@@ -1,7 +1,7 @@
 ## Confidence is All You Need for MI Attacks
 
 This directory contains code to reproduce our paper:
-**"Confidence is all you need for MI Attacks"** <br>
+**"Confidence is all you need for MI Attacks, AAAI'24"** <br>
 https://arxiv.org/abs/2311.15373 <br>
 by Abhishek Sinha, Himanshi Tibrewal, Mansi Gupta, Nikhar Waghela, Shivank Garg
 
